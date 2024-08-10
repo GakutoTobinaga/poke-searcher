@@ -1,7 +1,7 @@
 const Loading = () => {
   return (
     <div>
-        Loading...suspense
+        Loading Component
     </div>
   );
 };

@@ -1,13 +1,10 @@
+import logo from './logo.svg';
 import './App.css';
 import Pokemon from './components/pokemon';
-import Loading from './components/loading';
-import { Suspense } from 'react';
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={<Loading />}>
-        <Pokemon />
-      </Suspense>
+      <Pokemon/>
     </div>
   );
 }
